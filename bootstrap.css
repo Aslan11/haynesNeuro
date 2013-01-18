@@ -4710,7 +4710,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inverse .navbar-inner {
-  background-color: #1b1b1b;
+  background-color: rgb(0, 173, 255);;
   background-image: -moz-linear-gradient(top, rgb(0, 159, 248), rgb(12, 78, 109));
   background-image: -webkit-gradient(linear, 0 0, 0 100%, rgb(0, 159, 248), rgb(12, 78, 109));
   background-image: -webkit-linear-gradient(top, rgb(0, 159, 248), rgb(12, 78, 109));
