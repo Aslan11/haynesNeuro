@@ -38,9 +38,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="/assets/ico/favicon.png">
-    <script type="text/javascript" src="modernizr.custom.46884.js"></script>
-    <link rel="stylesheet" type="text/css" href="slicebox.css" />                          
+    <link rel="shortcut icon" href="/assets/ico/favicon.png">                      
   </head>
 
   <body>
@@ -93,31 +91,52 @@
         </div><!--/span-->
         <div class="span9">
           <div class="hero-unit">
-          <div class="wrapper">
+          
+          	<div id="CU3ER" class="CU3ER">
+				 <p>If you do not see content of CU3ER slider here try to enable JavaScript and reload the page</p>
+				<!-- generated SEO content starts here -->  
+				<div style="position:absolute;left:-50000px;">  <ul>
+				    <li>
+				      <img src='images/6.jpg' alt=''/>
+				      <h2></h2>
+				      <p></p>
+				      <p></p>
+				    </li>
+				    <li>
+				      <img src='images/2.jpg' alt=''/>
+				      <h2></h2>
+				      <p></p>
+				      <p></p>
+				    </li>
+				    <li>
+				      <img src='images/3.jpg' alt=''/>
+				      <h2></h2>
+				      <p></p>
+				      <p></p>
+				    </li>
+				    <li>
+				      <img src='images/4.jpg' alt=''/>
+				      <h2></h2>
+				      <p></p>
+				      <p></p>
+				    </li>
+				    <li>
+				      <img src='images/5.jpg' alt=''/>
+				      <h2></h2>
+				      <p></p>
+				      <p></p>
+				    </li>
+				    <li>
+				      <img src='images/1.jpg' alt=''/>
+				      <h2>Wanna play?</h2>
+				      <p></p>
+				      <p></p>
+				    </li>
+				  </ul></div>
+				<!-- generated SEO content ends here -->  
+				</div>
 
-				<ul id="sb-slider" class="sb-slider">
-					<li>
-						<img src="1.jpg" alt="image1"/>
-					</li>
-					<li>
-						<img src="2.jpg" alt="image1"/>
-					</li>
-					<li>
-						<img src="3.jpg" alt="image1"/>
-					</li>
-					<li>
-						<img src="4.jpg" alt="image1"/>
-					</li>
-					<li>
-						<img src="5.jpg" alt="image1"/>
-					</li>
-					<li>
-						<img src="6.jpg" alt="image1"/>
-					</li>
-				</ul>
-
-				<div id="shadow" class="shadow"></div>
-			</div><!-- /wrapper -->
+          
             <h1>Welcome!</h1>
             <p>Haynes Neurosurgical is a medical practice that specializes in neurological surgery.  We treat diseases of and traumas to the nervous system, which encompasses the brain, spine, nerve and arteries associated with carrying blood to the brain.  Our primary office is located at Birmingham Baptist Medical Center Princeton, but we also maintain a clinic at UAB Medical Center West.
 
@@ -157,58 +176,33 @@ Thank you for selecting our office to provide the medical services you require. 
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script src="bootstrap.js"></script>
-	<script type="text/javascript" src="jquery.slicebox.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				
-				var Page = (function() {
-
-					var $navArrows = $( '#nav-arrows' ).hide(),
-						$shadow = $( '#shadow' ).hide(),
-						slicebox = $( '#sb-slider' ).slicebox( {
-							onReady : function() {
-
-								$navArrows.show();
-								$shadow.show();
-
-							},
-							orientation : 'r',
-							cuboidsRandom : true,
-							disperseFactor : 30
-						} ),
-						
-						init = function() {
-
-							initEvents();
-							
-						},
-						initEvents = function() {
-							slicebox.play();
-							// add navigation events
-							$navArrows.children( ':first' ).on( 'click', function() {
-
-								slicebox.next();
-								return false;
-
-							} );
-
-							$navArrows.children( ':last' ).on( 'click', function() {
-								
-								slicebox.previous();
-								return false;
-
-							} );
-
-						};
-
-						return { init : init };
-
-				})();
-
-				Page.init();
-
-			});
-		</script>
-
+    <script type="text/javascript" src="js/swfobject.js"></script>
+    <script type="text/javascript" src="js/jquery.cu3er.js"></script>
+	<script type="text/javascript">
+	
+	  jQuery.noConflict();
+	  jQuery(document).ready(function($) {
+	    jQuery("#CU3ER").cu3er({
+	      vars: {
+	        width: "840",
+	        height: "280",
+	        force_javascript: 'true',
+	        flash_version: "10.0.0",
+	        xml_location: 'CU3ER-config.xml',
+	        swf_location: 'CU3ER.swf',
+	        
+	      },
+	      params: {
+	        bgcolor : '#D4F2F5'
+	      },
+	      attributes: {
+	        id: "CU3ER",
+	        name: "CU3ER"
+	      }
+	    });
+	  });
+	
+	</script>
+	
   </body>
 </html>
