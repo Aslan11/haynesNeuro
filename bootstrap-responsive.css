@@ -882,6 +882,14 @@
   .modal.fade.in {
     top: 20px;
   }
+  
+  .navbar .brand{
+	  font-size: 18px;
+  }
+  
+  .hero-unit h1{
+	  font-size: 50px;
+  }
 }
 
 @media (max-width: 480px) {
