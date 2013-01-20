@@ -6001,6 +6001,7 @@ background-color: rgb(212, 242, 245);
 -webkit-border-radius: 6px;
 -moz-border-radius: 6px;
 border-radius: 6px;
+text-align: center;
 }
 
 .hero-unit h1 {
