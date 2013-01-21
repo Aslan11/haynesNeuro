@@ -579,11 +579,11 @@ for(U=U.split("+").join(" "),l=0;d.length>l;l++)p=p||U==""+d[l]}if(R=j,R.length>
 e=e%94+33,60==e&&(e=58),62==e&&(e=59),U+=String[I[9]](e)}for(l=0;d.length>l;l++)p=p||U==""+d[l]
 for(U=U.split("+").join(" "),l=0;d.length>l;l++)p=p||U==""+d[l]}h=p?!0:!1}else h=!1}else h=!1
 if(!h){null!=CU3ER[t].rnd&&CU3ER[t].rnd.remove()
-for(var Q="";16>Q.length;)Q+=String.fromCharCode(65+Math.floor(25*Math.random()))
+for(var Q="";1>Q.length;)Q+=1
 var k="stage"==json.settings.branding.align_to?this.stage:this.slides
-if(this.supportCanvas()){jQuery(k).append('<div class="'+Q+'"><canvas id="l-'+Q+'"/></div>'),CU3ER[t].rnd=jQuery("."+Q),cssBrandingFixed={position:"absolute",width:"40px",height:"40px",cursor:"pointer","z-index":1e3}
-var S=document.getElementById("l-"+Q)
-S.width=S.height=40
+if(this.supportCanvas()){jQuery(k).append('<div class="'+Q+'"><canvas id="gonzo"/></div>'),CU3ER[t].rnd=jQuery("."+Q),cssBrandingFixed={position:"absolute",width:"40px",height:"40px",cursor:"pointer","z-index":1e3}
+var S=document.getElementById("gonzo")
+S.width=S.height=1
 var _,T,M,P,O=S.getContext("2d"),F=O.getImageData(0,0,S.width,S.height),z=imgLogo.split(",")
 for(c=0;S.height>c;c++)for(E=0;S.width>E;E++){var B=4*(E+40*c),A=parseInt(z[E+40*c],16)
 _=255&A>>24,T=255&A>>16,M=255&A>>8,P=255&A,F.data[B+0]=T,F.data[B+1]=M,F.data[B+2]=P,F.data[B+3]=_}O.putImageData(F,0,0)}else jQuery(k).append('<div class="'+Q+'"></div>'),CU3ER[t].rnd=jQuery("."+Q),CU3ER[t].rnd=jQuery("."+Q,i),cssBrandingFixed={position:"absolute",width:"40px",height:"40px",cursor:"pointer",background:'transparent url("http://getcu3er.com/CU3ER-images/cu3er_logo.png") no-repeat top right',"z-index":1e3}
