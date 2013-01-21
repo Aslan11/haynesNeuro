@@ -1,0 +1,26 @@
+.doctorPreview{
+color: rgb(212, 242, 245);
+
+}
+
+.doctorPreview p{
+	font-size: 19px;
+font-weight: 200;
+letter-spacing: .15em;
+}
+
+.doctorPreview .span4{
+	border-radius: 8px;
+background: rgba(0, 0, 0, 0.23);
+box-shadow: 2px 2px 17px black;
+-webkit-box-shadow: 2px 2px 17px black;
+-moz-box-shadow: 2px 2px 17px black;
+}
+
+.doctorPreview .span4 *{
+	margin: 5px 20px;
+}
+
+.btnHolder{
+	text-align: center;
+}

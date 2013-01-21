@@ -228,6 +228,11 @@ body {
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
+  background: -webkit-radial-gradient(center, ellipse cover, #1e5799 0%,#207cca 0%,#2989d8 50%,#7db9e8 100%);
+  background: -moz-radial-gradient(center, ellipse cover, #1e5799 0%, #207cca 0%, #2989d8 50%, #7db9e8 100%);
+  background: radial-gradient(ellipse at center, #1e5799 0%,#207cca 0%,#2989d8 50%,#7db9e8 100%); 
+  background: -o-radial-gradient(center, ellipse cover, #1e5799 0%,#207cca 0%,#2989d8 50%,#7db9e8 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #1e5799 0%,#207cca 0%,#2989d8 50%,#7db9e8 100%);
 }
 
 a {
@@ -3072,6 +3077,7 @@ table th[class*="span"],
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
      -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          
 }
 
 .well blockquote {
@@ -6002,6 +6008,8 @@ background-color: rgb(212, 242, 245);
 -moz-border-radius: 6px;
 border-radius: 6px;
 text-align: center;
+border: 1px solid #e3e3e3;
+box-shadow: 2px 2px 17px black;
 }
 
 .hero-unit h1 {
